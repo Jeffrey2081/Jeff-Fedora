@@ -2,7 +2,7 @@
 
 #Clean lingering programs when reloaded
 "$HOME/.config/bspwm/clean" &
-
+xrandr -s 1920x1080 -r 75
 #Start polybar first
 bash ~/.config/polybar/launch.sh &
 feh --bg-fill ~/Pictures/background.jpg &
@@ -79,3 +79,4 @@ synology-drive &
 
 # Move to Desktop 1
 bspc desktop -f 1
+variety
