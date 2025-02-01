@@ -44,3 +44,5 @@ rm ./FiraCode.zip ./Meslo.zip
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 sudo systemctl enable libvirtd --now
+sudo usermod -aG libvirt $(whoami)
+
