@@ -10,7 +10,7 @@ mv ./dotconfig/* ~/.config
 mv ./bg.jpg ~/.config
 
 # Installing Essential Programs 
-sudo dnf install -y sddm bspwm sxhkd fastfetch kitty rofi polybar picom thunar nitrogen lxpolkit xorg-x11-drv-intel
+sudo dnf install -y sddm bspwm htop sxhkd fastfetch kitty rofi polybar picom thunar nitrogen lxpolkit xorg-x11-drv-intel
 # Installing Other less important Programs
 sudo dnf install -y lutris qemu-kvm libvirt virt-install bridge-utils virt-manager libvirt-devel virt-top libguestfs-tools guestfs-tools   wine.i686 wine gedit feh variety xrandr  lxappearance 
 # Installing Custom ocs-url package
