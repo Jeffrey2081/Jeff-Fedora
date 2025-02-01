@@ -10,9 +10,9 @@ mv ./dotconfig/* ~/.config
 mv ./bg.jpg ~/.config
 
 # Installing Essential Programs 
-sudo dnf install -y sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit
+sudo dnf install -y sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit xorg-x11-drv-intel
 # Installing Other less important Programs
-sudo dnf install -y mangohud gimp vim lxappearance
+sudo dnf install -y gedit feh variety xrandr  lxappearance 
 # Installing Custom ocs-url package
 sudo dnf install -y ./rpm-packages/ocs-url-3.1.0-1.fc20.x86_64.rpm
 
