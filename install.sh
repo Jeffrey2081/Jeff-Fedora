@@ -26,6 +26,7 @@ cd /usr/share/themes/
 sudo git clone https://github.com/EliverLara/Nordic.git
 cd ~
 git clone https://github.com/vinceliuice/Layan-cursors.git
+cd ~/Layan-cursors/
 sudo ./install.sh
 
 #Installing my apps
