@@ -10,9 +10,9 @@ mv ./dotconfig/* ~/.config
 mv ./bg.jpg ~/.config
 
 # Installing Essential Programs 
-sudo dnf install -y sddm bspwm sxhkd kitty rofi polybar picom dolphin variety lxpolkit xorg-x11-drv-intel
+sudo dnf install -y sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit
 # Installing Other less important Programs
-sudo dnf install -y nano lxappearance
+sudo dnf install -y mangohud gimp vim lxappearance
 # Installing Custom ocs-url package
 sudo dnf install -y ./rpm-packages/ocs-url-3.1.0-1.fc20.x86_64.rpm
 
@@ -24,11 +24,6 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
 unzip Meslo.zip -d /usr/share/fonts
 # Reloading Font
 fc-cache -vf
-# Installing Brave
-sudo dnf install dnf-plugins-core -y
-sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-sudo dnf install brave-browser -y
-
 # Removing zip Files
 rm ./FiraCode.zip ./Meslo.zip
 
