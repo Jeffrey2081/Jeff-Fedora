@@ -45,7 +45,7 @@ Feel free to open an issue or submit a pull request if you have any suggestions 
 
 ---
 
-Made with ❤️ by Jeffrey2081
+Made with ❤️ by Jeffrey
 
 ---
 
